@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="message.h" />
+    <ClInclude Include="serv_con.h" />
     <ClInclude Include="User.h" />
     <ClInclude Include="xclient.h" />
     <ClInclude Include="xserver.h" />
@@ -134,6 +136,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="message.cpp" />
+    <ClCompile Include="serv_con.cpp" />
     <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
