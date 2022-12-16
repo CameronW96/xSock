@@ -47,6 +47,9 @@
     <ClCompile Include="serv_con.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="xserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="xSock.rc">

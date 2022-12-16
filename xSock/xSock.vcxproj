@@ -88,7 +88,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\asio-1.22.0\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\asio-1.22.0\include; C:\c++ libraries\asio-1.24.0\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,6 +139,7 @@
     <ClCompile Include="message.cpp" />
     <ClCompile Include="serv_con.cpp" />
     <ClCompile Include="User.cpp" />
+    <ClCompile Include="xserver.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="xSock.rc" />

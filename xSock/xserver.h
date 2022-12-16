@@ -13,6 +13,7 @@ public:
 	XServer();
 	Message get_next_msg();
 	int send_msg(const User& t_user);
+	bool run();
 
 private:
 	std::deque<User> user_que;
